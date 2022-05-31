@@ -1,0 +1,108 @@
+<html lang="en">
+    <head>
+        <title>Color,Background & Gradient</title>
+        <style>
+            #rounded1{
+                background: rgba(255, 0,0, 0.3);
+                color: white;
+                width: 200px;
+                height: 200px;
+                padding: 30px;
+                border-radius: 10px;
+            }
+            #rounded2{
+                background: hsl(120, 100%, 50%);
+                color: white;
+                width: 200px;
+                height: 200px;
+                padding: 30px;
+                border-top-left-radius: 10px;
+            }
+            #rounded3{
+                background: hsla(120, 100%, 50%, 0.3);
+                color: white;
+                width: 200px;
+                height: 200px;
+                padding: 50px;
+                border: 3px black solid;
+                border-radius: 100%;
+            }
+            img{
+                border-radius: 30%;
+            }
+            #border-img{
+                border: 10px solid transparent;
+                padding: 15px;
+                border-image: url(bg.jpg) 50 round;
+            } 
+            #my-bg{
+                background-image: url(flower.gif), url(images.gif);
+                background-position: right bottom, left top;
+                background-repeat: no-repeat, repeat;
+                padding: 15px 200px 15px 15px;
+                background-size: 130px 240px;
+            }
+            h1{
+                text-align: center;
+            }
+            #grad1{
+                width: 500px;
+                height: 200px;
+                background: blue;
+                background: linear-gradient(blue, black, white);
+            }
+            #grad2{
+                width: 500px;
+                height: 200px;
+                background: blue;
+                background: linear-gradient(to right, blue, black);
+            }
+            #grad3{
+                width: 500px;
+                height: 200px;
+                background: blue;
+                background: linear-gradient(to bottom, blue, black);
+            }
+            #grad4{
+                width: 500px;
+                height: 200px;
+                background: blue;
+                background: repeating-radial-gradient(white 5%, blue 15%, black 60%);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="rounded1">Rounded corners</div>
+        <br>
+        <div id="rounded2">Rounded corners</div>
+        <br>
+        <div id="rounded3">Rounded corners</div>
+        <br>
+        <img src="bg.jpg" >
+        <br>
+        <br>
+        <div id="border-img">This div uses an image border</div>
+        <br> 
+        <div id="my-bg">
+            <h1>Welcome</h1>
+            <p>
+                heloo this is my selfmade paragraph.
+                right now im learning background inagrs.
+                and it is fun.heloo this is my selfmade paragraph.
+                right now im learning background inagrs.
+                and it is fun.
+            </p>
+            <p></p>
+                heloo this is my selfmade paragraph.
+                right now im learning background inagrs.
+                and it is fun.heloo this is my selfmade paragraph.
+                right now im learning background inagrs.
+                and it is fun.
+        </div>
+        <br>
+        <div id="grad1"></div><br>
+        <div id="grad2"></div><br>
+        <div id="grad3"></div><br>
+        <div id="grad4"></div><br>
+    </body>
+</html>

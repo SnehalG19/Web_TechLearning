@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Javascript |Loops, Conditions & Switches</title>
+        
+    </head>
+    <body>
+        <div id="people">
+            
+        </div> <!-- /container -->
+        <script>
+            // Loops
+            // for(i=0;i<10;i++){
+            //     console.log(i);
+            // }
+            // var i=0;
+            // while(i<10){
+            //     console.log(i);
+            //     i++
+            // }
+            // var people =['Snehal','Sally','Sandhya'];
+            // for( var i=0;i<people.length;i++){
+            //     console.log(people[i]);
+            // }
+            var people=[
+                {name:'Snehal',
+                age:21,
+                },
+                {name:'Sally',
+                age:22,
+                },
+                {name:'Sandhya',
+                age:20,
+                }
+            ];
+            var output='';
+            for (var i=0;i< people.length;i++){
+                document.getElementById('people').innerHTML +=
+                '<li>'+people[i].name+' - '+people[i].age+'</li>';
+            }
+            // Conditions
+            // var x =10;
+            // if (x<5){
+            //     console.log('yes');
+            // }else{
+            //     console.log('no');
+            // }
+            // var x=10;
+            // switch(x){
+            //     case 1:
+            //         console.log('yes x is 1');
+            //         break;
+            //     case 2:
+            //         console.log('yes x is 2');
+            //         break;
+            //     default:
+            //         console.log('x is neither 1 nor 2');
+            // }
+        </script>
+
+    </body>
+</html>

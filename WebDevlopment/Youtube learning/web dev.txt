@@ -1,0 +1,57 @@
+Web devlopment
+
+HTML= hyper text markup language
+elements = individual components
+tags
+opening tags =<tagName>
+closing tags =</tagName>
+
+nesting of elements= using one inside other
+
+attributes= <tagName attributeName ="attribute value"
+
+general purpose attribute
+<p> describe paragraph
+
+DOCUMENT STRUCTRE
+1--------------------<!DOCTYPE html>
+              |-------<html>                     
+              |   |---<head>
+              |3--|   <title> Title here</title>  ---4                
+          2---|   |---</head>
+              |   |---<body>
+              |5--|    whole paragraph
+              |   |---</body>
+              |-------</html>
+
+
+
+<h1>higest size to <h6>lowest size
+<hr>horizontal rule
+<br>line breack tag
+
+ENTITIES(how to display)reserverd characters
+special charcharacters
+emojis
+symbols
+Syntax
+
+types of list
+ordered list <ol>
+unordered list<ul>
+
+
+LECTURE 2
+
+hyper link
+suntax =
+<a href =" ">
+URL =uniform resourse locator(it's unic)
+Types:
+1.absolute = start to end whole path
+2.relative = current file totarget file path
+
+
+
+
+
